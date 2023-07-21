@@ -1,0 +1,9 @@
+.b_info{
+    color: #fff;
+    margin-left: 15px;
+    background: #124e85
+
+}
+.b_info:hover{
+    background: #e87137;
+}

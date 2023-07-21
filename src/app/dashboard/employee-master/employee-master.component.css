@@ -1,0 +1,10 @@
+.bf{
+    font-size: 15px;
+    border: 1.5px solid #abb4c6;
+    font-weight: 600;
+    box-shadow: inset 0 0 10px #124e85;
+}
+td{
+    word-break:break;
+    
+  }

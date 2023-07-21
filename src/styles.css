@@ -1,1 +1,86 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #edf1f7;
+}
+.side{
+    font-size:  0.8125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    font-family: Open Sans, sans-serif;
+    color: #222b45;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.side2{
+    color: #abb4c6;
+    margin-right: 5px;
+    margin-left: -10px;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding-top: 10px;
+   padding-bottom: 10px;
+}
+.sd {
+    padding: 5px 10px;
+    height: 30px;
+    width: 150px;
+  }
+  input{
+    border: 1.5px solid #abb4c6;
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  input[type="date"] { 
+    color: #757575;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .tb{
+    background-color: #fff;
+  }
+  .s3{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+    padding-right: 6px;
+    padding-left: 6px;
+    font-weight: 400;
+    margin-right: 2px;
+}
+.s2{
+    font-size: 12.3px;
+    color: #fff !important;
+}
+.bg-blue{
+  background: linear-gradient(90deg, rgba(18,78,133,1) 0%, rgba(123,171,214,1) 35%, rgba(43,82,117,1) 100%);
+
+}
+.ut{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #012343;
+  /* display: inline-block; */
+  font-size: 15px;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.ut2{
+  border: none;
+  outline: none;
+  padding-top: 10px;
+  width: 280px;
+  padding-bottom:10px;
+  margin-left:10px;
+}
+.ut3{
+  border: none;
+  outline: none;
+  padding-top: 10px;
+  padding-bottom:10px;
+  margin-left:10px;
+  width: 200px;
+}
+.ci_head{
+  color: #124e85;
+  font-weight: 600;
+}

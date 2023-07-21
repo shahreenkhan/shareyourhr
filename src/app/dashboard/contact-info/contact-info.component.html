@@ -1,0 +1,398 @@
+<app-header></app-header>
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class=" col-md-4 col-xl-2 px-sm-2 " style="background-color: #ffffff;">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li class="nav-item border-bottom">
+                        <a href="#" class="nav-link align-middle px-0">
+                            <i class="bi bi-house-door   side2"></i> <span class="ms-1 d-none d-sm-inline side">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item border-bottom">
+                        <a href="#" class="nav-link align-middle px-0">
+                            <i class="bi bi-inbox  side2"></i> <span class="ms-1 d-none d-sm-inline side">Task</span>
+                        </a>
+                    </li>
+                    <li class=" border-bottom">
+                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <i class="bi bi-person-fill  side2"></i> <span class="ms-1 d-none d-sm-inline side">Candidate Onboarding</span> </a>
+                        <ul class="collapse  nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">List Offers</span> </a>
+                            </li>
+                            <li >
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">Give Offers</span> </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=" border-bottom">
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                            <i class="bi bi-people-fill  side2"></i> <span class="ms-1 d-none d-sm-inline side">Employee</span></a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a routerLink="/dashboard/employee_master" class="nav-link px-0"> <span class="d-none d-sm-inline side">View</span> </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">Add</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=" border-bottom">
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                            <i class="bi bi-check-all  side2"></i> <span class="ms-1 d-none d-sm-inline side">Attendance Policy</span></a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">View</span> </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">Add</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=" border-bottom">
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                            <i class="bi bi-person-dash-fill  side2"></i> <span class="ms-1 d-none d-sm-inline side">Leave Policy</span></a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">View</span> </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">Add</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=" border-bottom">
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                            <i class="bi bi-calendar3  side2"></i> <span class="ms-1 d-none d-sm-inline side">Holiday List</span></a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">View</span> </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">Add</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=" border-bottom">
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                            <i class="bi bi-bag-check  side2"></i><span class="ms-1 d-none d-sm-inline side">Attendance</span></a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">History</span> </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=" border-bottom">
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                            <i class="bi bi-bookmark  side2"></i> <span class="ms-1 d-none d-sm-inline side">Leave</span></a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">Application History</span> </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">Transaction History</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=" border-bottom">
+                        <a href="#" class="nav-link px-0 align-middle">
+                            <i class="bi bi-megaphone-fill  side2"></i> <span class="ms-1 d-none d-sm-inline side">Announcement</span></a>
+                    </li>
+                    <li class=" border-bottom">
+                        <a href="#" class="nav-link px-0 align-middle">
+                            <i class="bi bi-pencil-square  side2"></i> <span class="ms-1 d-none d-sm-inline side">Anonymous Feedback</span></a>
+                    </li>
+                    <li class=" border-bottom">
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                            <i class="bi bi-ticket  side2"></i> <span class="ms-1 d-none d-sm-inline side">Ticket</span></a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">History</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=" border-bottom">
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                            <i class="bi bi-box-arrow-left  side2"></i> <span class="ms-1 d-none d-sm-inline side">Exit Request</span></a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">History</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=" border-bottom">
+                        <a href="#" class="nav-link px-0 align-middle">
+                            <i class="bi bi-stack  side2"></i> <span class="ms-1 d-none d-sm-inline side">Master Data</span> </a>
+                    </li>
+                    <li class=" border-bottom">
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                            <i class="bi bi-gear-fill side2"></i> <span class="ms-1 d-none d-sm-inline side">Setting</span></a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">Company Account</span></a>
+                            </li>
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline side">Reset Password</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            
+            </div>
+        </div>
+        <div class="col py-3">
+           <app-employee-nav></app-employee-nav>
+
+           <!-- current addres start -->
+           <div class="container  shadow rounded" style="margin-left:0px;margin-right: 0px;">
+            <div class="row mt-4" >
+                <h3 class="mt-2 ci_head" style="margin-left: 15px;">Current / Correspondance Address</h3>
+           <div class="col-md-4">
+            <div class="" style="margin-left:10px;">
+                <p class="ut" >Action </p>
+                <select class="ut2 rounded">
+                    <option value="" class="dropfont3">Add Notes</option>
+                    <option value="" class="dropfont3">Assign Case</option>
+                    <option value="" class="dropfont3">Add Schedule</option>
+                    <option value="" class="dropfont3">Create Part Request</option>
+                    <option value="" class="dropfont3"> Create Skill Request</option>
+                    <option value="" class="dropfont3">Add Chargeable Event</option>
+                    <option value="" class="dropfont3">Add Chargeable Event</option>
+     
+                </select>
+              </div>
+           </div>
+           <div class="col-md-4">
+            <div class="" style="margin-left:10px;">
+                <p class="ut" >State </p>
+                <select class="ut2 rounded">
+                    <option value="" class="dropfont3">Add Notes</option>
+                    <option value="" class="dropfont3">Assign Case</option>
+                    <option value="" class="dropfont3">Add Schedule</option>
+                    <option value="" class="dropfont3">Create Part Request</option>
+                    <option value="" class="dropfont3"> Create Skill Request</option>
+                    <option value="" class="dropfont3">Add Chargeable Event</option>
+                    <option value="" class="dropfont3">Add Chargeable Event</option>
+     
+                </select>
+              </div>
+           </div>
+           <div class="col-md-4">
+            <div class="" style="margin-left:10px;">
+                <p class="ut" >City</p>
+                <select class="ut2 rounded">
+                    <option value="" class="dropfont3">Add Notes</option>
+                    <option value="" class="dropfont3">Assign Case</option>
+                    <option value="" class="dropfont3">Add Schedule</option>
+                    <option value="" class="dropfont3">Create Part Request</option>
+                    <option value="" class="dropfont3"> Create Skill Request</option>
+                    <option value="" class="dropfont3">Add Chargeable Event</option>
+                    <option value="" class="dropfont3">Add Chargeable Event</option>
+     
+                </select>
+              </div>
+           </div>
+        </div>
+        <div class="row mt-3 ">
+            <div class="col-md-4">
+                <div class="" style="margin-left:10px;">
+                    <p class="ut" >Current Address </p>
+                    <textarea name="" class="ut2" placeholder="gwalior" ></textarea>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                <div class="" style="margin-left:10px;">
+                    <p class="ut" >Post Code/Pin Code/Zip Code </p>
+                    <textarea name="" class="ut2" placeholder="477880" ></textarea>
+                  </div>
+               </div>
+        </div>
+           </div>
+            <!-- current address end -->
+
+
+           <!-- permanent address start -->
+           <div class="container  shadow rounded" style="margin-left:0px;margin-right: 0px;">
+            <div class="row mt-4" >
+                <h3 class="mt-2 ci_head" style="margin-left: 15px;">Permanent / Home Address</h3>
+                <div class="form-check" style="margin-left: 30px;">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                     Same as Current Address
+                    </label>
+                  </div>
+           <div class="col-md-4 mt-4">
+            <div class="" style="margin-left:10px;">
+                <p class="ut" >Action </p>
+                <select class="ut2 rounded">
+                    <option value="" class="dropfont3">Add Notes</option>
+                    <option value="" class="dropfont3">Assign Case</option>
+                    <option value="" class="dropfont3">Add Schedule</option>
+                    <option value="" class="dropfont3">Create Part Request</option>
+                    <option value="" class="dropfont3"> Create Skill Request</option>
+                    <option value="" class="dropfont3">Add Chargeable Event</option>
+                    <option value="" class="dropfont3">Add Chargeable Event</option>
+     
+                </select>
+              </div>
+           </div>
+           <div class="col-md-4">
+            <div class="" style="margin-left:10px;">
+                <p class="ut" >State </p>
+                <select class="ut2 rounded">
+                    <option value="" class="dropfont3">Add Notes</option>
+                    <option value="" class="dropfont3">Assign Case</option>
+                    <option value="" class="dropfont3">Add Schedule</option>
+                    <option value="" class="dropfont3">Create Part Request</option>
+                    <option value="" class="dropfont3"> Create Skill Request</option>
+                    <option value="" class="dropfont3">Add Chargeable Event</option>
+                    <option value="" class="dropfont3">Add Chargeable Event</option>
+     
+                </select>
+              </div>
+           </div>
+           <div class="col-md-4">
+            <div class="" style="margin-left:10px;">
+                <p class="ut" >City</p>
+                <select class="ut2 rounded">
+                    <option value="" class="dropfont3">Add Notes</option>
+                    <option value="" class="dropfont3">Assign Case</option>
+                    <option value="" class="dropfont3">Add Schedule</option>
+                    <option value="" class="dropfont3">Create Part Request</option>
+                    <option value="" class="dropfont3"> Create Skill Request</option>
+                    <option value="" class="dropfont3">Add Chargeable Event</option>
+                    <option value="" class="dropfont3">Add Chargeable Event</option>
+     
+                </select>
+              </div>
+           </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <div class="" style="margin-left:10px;">
+                    <p class="ut" >Current Address </p>
+                    <textarea name="" class="ut2" placeholder="gwalior" ></textarea>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                <div class="" style="margin-left:10px;">
+                    <p class="ut" >Post Code/Pin Code/Zip Code </p>
+                    <textarea name="" class="ut2" placeholder="477880" ></textarea>
+                  </div>
+               </div>
+        </div>
+           </div>
+         <!-- permanent address end -->
+
+         <!-- contact start -->
+         <div class="container  shadow rounded" style="margin-left:0px;margin-right: 0px;">
+            <div class="row mt-4" >
+                <h3 class="mt-2 ci_head" style="margin-left: 15px;">Contact</h3>
+           <div class="col-md-3">
+            <div class="" style="margin-left:10px;">
+                <p class="ut" >Mobile Number </p>
+                <input type="text" class="ut3" placeholder="8987902833">
+              </div>
+           </div>
+           <div class="col-md-3">
+            <div class="" style="margin-left:10px;">
+                <p class="ut" >Alternate Number </p>
+                <input type="text" class="ut3" placeholder="8987902833">
+              </div>
+           </div>
+           <div class="col-md-3">
+            <div class="" style="margin-left:10px;">
+                <p class="ut" >Emergency Contact Person</p>
+                <input type="text" class="ut3" placeholder="">
+              </div>
+           </div>
+           <div class="col-md-3">
+            <div class="" style="margin-left:10px;">
+                <p class="ut" >Emergency Number</p>
+                <input type="text" class="ut3" placeholder="8987902833">
+              </div>
+           </div>
+        </div>
+        <div class="row mt-3 ">
+            <div class="col-md-3">
+            <div class="" style="margin-left:10px;">
+                <p class="ut" >Personal Email</p>
+                <input type="text" class="ut3" placeholder="8987902833">
+              </div>
+           </div>
+           <div class="col-md-3">
+           <div class="" style="margin-left:10px;">
+               <p class="ut" >Company Email</p>
+               <input type="text" class="ut3" placeholder="8987902833">
+             </div>
+          </div>
+          <div class="col-md-3">
+            <div class="" style="margin-left:10px;">
+                <p class="ut" >Office Number</p>
+                <input type="text" class="ut3" placeholder="8987902833">
+              </div>
+           </div>
+           <div class="col-md-3">
+            <div class="" style="margin-left:10px;">
+                <p class="ut" >Office Desk Number</p>
+                <input type="text" class="ut3" placeholder="8987902833">
+              </div>
+           </div>
+        </div>
+
+        <div class="row mt-3 ">
+            <div class="col-md-3">
+            <div class="" style="margin-left:10px;">
+                <p class="ut" >Ext Number</p>
+                <input type="text" class="ut3" placeholder="8987902833">
+              </div>
+           </div>
+           <div class="col-md-3">
+           <div class="" style="margin-left:10px;">
+               <p class="ut" >Source Of Hire</p>
+               <select class="ut3 rounded">
+                <option value="" class="dropfont3">Add Notes</option>
+                <option value="" class="dropfont3">Assign Case</option>
+                <option value="" class="dropfont3">Add Schedule</option>
+                <option value="" class="dropfont3">Create Part Request</option>
+                <option value="" class="dropfont3"> Create Skill Request</option>
+                <option value="" class="dropfont3">Add Chargeable Event</option>
+                <option value="" class="dropfont3">Add Chargeable Event</option>
+ 
+            </select>
+             </div>
+          </div>
+          <div class="col-md-3 mb-5">
+            <div class="" style="margin-left:10px;">
+                <p class="ut" >Recommended / Reffered By</p>
+                <input type="text" class="ut3" placeholder="8987902833">
+              </div>
+           </div>
+        </div>
+           </div>
+         <!-- contact end -->
+
+           <!-- buttons start -->
+           <div class="container  shadow rounded" style="margin-left:0px;margin-right: 0px;">
+           <div class="mt-4 mb-3">
+            <a class="btn b_info mt-3 mb-1" href="#" role="button">Save <i class="bi bi-check-lg"></i></a>
+            <a class="btn b_info mt-3 mb-1" href="#" role="button">Cancel<i class="bi bi-x-circle" style="margin-left:8px;"></i></a>
+            <a class="btn b_info mt-3 mb-1" href="#" role="button">Amend<i class="bi bi-pencil" style="margin-left:8px;"></i></a>
+            <a class="btn b_info mt-3 mb-1" href="#" role="button">Amendmend History</a>
+           </div>
+           <div class="row">
+            <p style="color: blue;">
+                Note: 1.Information in fields marked with &nbsp;
+                <span style="color: #1FCF08;">*</span>&nbsp;
+                &nbsp; helps HR to perform better in areas like compliances, employee safety etc. 
+             </p>
+             <p  style="color: blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                2. Data will be trimmed if it's greater than maximum length. </p>
+           </div>
+           </div>
+         <!-- buttons end -->
+         
+        </div>
+    </div>
+</div>
